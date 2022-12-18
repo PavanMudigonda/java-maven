@@ -1,4 +1,4 @@
-Java Maven Starter Kit
+Java Maven Starter
 ##################
 
 Java, maven based playground starter project.
