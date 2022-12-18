@@ -34,3 +34,5 @@ jobs:
           coverage_report_title: 'Test coverage results'
           coverage_report_name: 'Test coverage results'
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          minimum_coverage: 90
+          fail_below_threshold: true
