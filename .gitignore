@@ -1,0 +1,13 @@
+# IDE
+.idea/*
+!.idea/codeStyles/
+*.iml
+
+# Java compiled/packaged files
+target/
+
+# Maven shade plugin temporary files
+dependency-reduced-pom.xml
+
+# Logs:
+logs/

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <property name="LOG_FILE" value="logs/starter.log"/>
+  <property name="ARCHIVED_LOG_FILE_PATTERN" value="logs/archived/starter.%d{yyyy-MM-dd}.%i.log"/>
+
+  <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <Pattern>%d{HH:mm:ss.SSS} %-5p %logger{36} [%t]: %m%n</Pattern>
+    </encoder>
+  </appender>
+
+  <appender name="file_rolling" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${LOG_FILE}</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+      <fileNamePattern>${ARCHIVED_LOG_FILE_PATTERN}</fileNamePattern>
+      <maxFileSize>100MB</maxFileSize>
+      <totalSizeCap>1GB</totalSizeCap>
+      <maxHistory>30</maxHistory>
+    </rollingPolicy>
+    <encoder>
+      <pattern>%d{yyyy-MM-d HH:mm:ss.SSS} %-5p %c{1.} [%t]: %m%n</pattern>
+    </encoder>
+  </appender>
+
+  <logger name="com.yevgenyk" level="debug" additivity="false">
+    <appender-ref ref="console"/>
+    <appender-ref ref="file_rolling"/>
+  </logger>
+
+  <root level="error">
+    <appender-ref ref="console"/>
+    <appender-ref ref="file_rolling"/>
+  </root>
+</configuration>
