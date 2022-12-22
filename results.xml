@@ -1,0 +1,1605 @@
+<testsuites id="" name="" tests="175" failures="3" skipped="0" errors="0" time="103.831">
+<testsuite name="example.spec.ts" timestamp="1671672958247" hostname="" tests="25" failures="0" skipped="0" time="33.002" errors="0">
+<testcase name="New Todo should allow me to add todo items" classname="[chromium] › example.spec.ts:14:3 › New Todo › should allow me to add todo items" time="4.703">
+</testcase>
+<testcase name="New Todo should clear text input field when an item is added" classname="[chromium] › example.spec.ts:37:3 › New Todo › should clear text input field when an item is added" time="4.621">
+</testcase>
+<testcase name="New Todo should append new items to the bottom of the list" classname="[chromium] › example.spec.ts:47:3 › New Todo › should append new items to the bottom of the list" time="4.753">
+</testcase>
+<testcase name="New Todo should show #main and #footer when items added" classname="[chromium] › example.spec.ts:61:3 › New Todo › should show #main and #footer when items added" time="4.611">
+</testcase>
+<testcase name="Mark all as completed should allow me to mark all items as completed" classname="[chromium] › example.spec.ts:81:3 › Mark all as completed › should allow me to mark all items as completed" time="0.575">
+</testcase>
+<testcase name="Mark all as completed should allow me to clear the complete state of all items" classname="[chromium] › example.spec.ts:90:3 › Mark all as completed › should allow me to clear the complete state of all items" time="0.623">
+</testcase>
+<testcase name="Mark all as completed complete all checkbox should update state when items are completed / cleared" classname="[chromium] › example.spec.ts:99:3 › Mark all as completed › complete all checkbox should update state when items are completed / cleared" time="0.72">
+</testcase>
+<testcase name="Item should allow me to mark items as complete" classname="[chromium] › example.spec.ts:122:3 › Item › should allow me to mark items as complete" time="0.595">
+</testcase>
+<testcase name="Item should allow me to un-mark items as complete" classname="[chromium] › example.spec.ts:144:3 › Item › should allow me to un-mark items as complete" time="0.601">
+</testcase>
+<testcase name="Item should allow me to edit an item" classname="[chromium] › example.spec.ts:164:3 › Item › should allow me to edit an item" time="0.635">
+</testcase>
+<testcase name="Editing should hide other controls when editing" classname="[chromium] › example.spec.ts:190:3 › Editing › should hide other controls when editing" time="0.605">
+</testcase>
+<testcase name="Editing should save edits on blur" classname="[chromium] › example.spec.ts:198:3 › Editing › should save edits on blur" time="0.66">
+</testcase>
+<testcase name="Editing should trim entered text" classname="[chromium] › example.spec.ts:212:3 › Editing › should trim entered text" time="0.747">
+</testcase>
+<testcase name="Editing should remove the item if an empty text string was entered" classname="[chromium] › example.spec.ts:226:3 › Editing › should remove the item if an empty text string was entered" time="0.669">
+</testcase>
+<testcase name="Editing should cancel edits on escape" classname="[chromium] › example.spec.ts:238:3 › Editing › should cancel edits on escape" time="0.676">
+</testcase>
+<testcase name="Counter should display the current number of todo items" classname="[chromium] › example.spec.ts:247:3 › Counter › should display the current number of todo items" time="0.638">
+</testcase>
+<testcase name="Clear completed button should display the correct text" classname="[chromium] › example.spec.ts:265:3 › Clear completed button › should display the correct text" time="0.679">
+</testcase>
+<testcase name="Clear completed button should remove completed items when clicked" classname="[chromium] › example.spec.ts:270:3 › Clear completed button › should remove completed items when clicked" time="0.675">
+</testcase>
+<testcase name="Clear completed button should be hidden when there are no items that are completed" classname="[chromium] › example.spec.ts:278:3 › Clear completed button › should be hidden when there are no items that are completed" time="0.767">
+</testcase>
+<testcase name="Persistence should persist its data" classname="[chromium] › example.spec.ts:286:3 › Persistence › should persist its data" time="0.697">
+</testcase>
+<testcase name="Routing should allow me to display active items" classname="[chromium] › example.spec.ts:316:3 › Routing › should allow me to display active items" time="0.727">
+</testcase>
+<testcase name="Routing should respect the back button" classname="[chromium] › example.spec.ts:324:3 › Routing › should respect the back button" time="0.903">
+</testcase>
+<testcase name="Routing should allow me to display completed items" classname="[chromium] › example.spec.ts:348:3 › Routing › should allow me to display completed items" time="0.738">
+</testcase>
+<testcase name="Routing should allow me to display all items" classname="[chromium] › example.spec.ts:355:3 › Routing › should allow me to display all items" time="0.784">
+</testcase>
+<testcase name="Routing should highlight the currently applied filter" classname="[chromium] › example.spec.ts:364:3 › Routing › should highlight the currently applied filter" time="0.6">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="1671672958247" hostname="" tests="25" failures="0" skipped="0" time="62.677" errors="0">
+<testcase name="New Todo should allow me to add todo items" classname="[firefox] › example.spec.ts:14:3 › New Todo › should allow me to add todo items" time="6.763">
+</testcase>
+<testcase name="New Todo should clear text input field when an item is added" classname="[firefox] › example.spec.ts:37:3 › New Todo › should clear text input field when an item is added" time="7.251">
+</testcase>
+<testcase name="New Todo should append new items to the bottom of the list" classname="[firefox] › example.spec.ts:47:3 › New Todo › should append new items to the bottom of the list" time="6.872">
+</testcase>
+<testcase name="New Todo should show #main and #footer when items added" classname="[firefox] › example.spec.ts:61:3 › New Todo › should show #main and #footer when items added" time="7.114">
+</testcase>
+<testcase name="Mark all as completed should allow me to mark all items as completed" classname="[firefox] › example.spec.ts:81:3 › Mark all as completed › should allow me to mark all items as completed" time="2.298">
+</testcase>
+<testcase name="Mark all as completed should allow me to clear the complete state of all items" classname="[firefox] › example.spec.ts:90:3 › Mark all as completed › should allow me to clear the complete state of all items" time="2.215">
+</testcase>
+<testcase name="Mark all as completed complete all checkbox should update state when items are completed / cleared" classname="[firefox] › example.spec.ts:99:3 › Mark all as completed › complete all checkbox should update state when items are completed / cleared" time="2.468">
+</testcase>
+<testcase name="Item should allow me to mark items as complete" classname="[firefox] › example.spec.ts:122:3 › Item › should allow me to mark items as complete" time="1.966">
+</testcase>
+<testcase name="Item should allow me to un-mark items as complete" classname="[firefox] › example.spec.ts:144:3 › Item › should allow me to un-mark items as complete" time="1.361">
+</testcase>
+<testcase name="Item should allow me to edit an item" classname="[firefox] › example.spec.ts:164:3 › Item › should allow me to edit an item" time="1.346">
+</testcase>
+<testcase name="Editing should hide other controls when editing" classname="[firefox] › example.spec.ts:190:3 › Editing › should hide other controls when editing" time="1.329">
+</testcase>
+<testcase name="Editing should save edits on blur" classname="[firefox] › example.spec.ts:198:3 › Editing › should save edits on blur" time="1.438">
+</testcase>
+<testcase name="Editing should trim entered text" classname="[firefox] › example.spec.ts:212:3 › Editing › should trim entered text" time="1.527">
+</testcase>
+<testcase name="Editing should remove the item if an empty text string was entered" classname="[firefox] › example.spec.ts:226:3 › Editing › should remove the item if an empty text string was entered" time="1.514">
+</testcase>
+<testcase name="Editing should cancel edits on escape" classname="[firefox] › example.spec.ts:238:3 › Editing › should cancel edits on escape" time="1.611">
+</testcase>
+<testcase name="Counter should display the current number of todo items" classname="[firefox] › example.spec.ts:247:3 › Counter › should display the current number of todo items" time="1.261">
+</testcase>
+<testcase name="Clear completed button should display the correct text" classname="[firefox] › example.spec.ts:265:3 › Clear completed button › should display the correct text" time="1.194">
+</testcase>
+<testcase name="Clear completed button should remove completed items when clicked" classname="[firefox] › example.spec.ts:270:3 › Clear completed button › should remove completed items when clicked" time="1.39">
+</testcase>
+<testcase name="Clear completed button should be hidden when there are no items that are completed" classname="[firefox] › example.spec.ts:278:3 › Clear completed button › should be hidden when there are no items that are completed" time="1.498">
+</testcase>
+<testcase name="Persistence should persist its data" classname="[firefox] › example.spec.ts:286:3 › Persistence › should persist its data" time="1.748">
+</testcase>
+<testcase name="Routing should allow me to display active items" classname="[firefox] › example.spec.ts:316:3 › Routing › should allow me to display active items" time="1.618">
+</testcase>
+<testcase name="Routing should respect the back button" classname="[firefox] › example.spec.ts:324:3 › Routing › should respect the back button" time="1.939">
+</testcase>
+<testcase name="Routing should allow me to display completed items" classname="[firefox] › example.spec.ts:348:3 › Routing › should allow me to display completed items" time="1.59">
+</testcase>
+<testcase name="Routing should allow me to display all items" classname="[firefox] › example.spec.ts:355:3 › Routing › should allow me to display all items" time="1.713">
+</testcase>
+<testcase name="Routing should highlight the currently applied filter" classname="[firefox] › example.spec.ts:364:3 › Routing › should highlight the currently applied filter" time="1.653">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="1671672958247" hostname="" tests="25" failures="0" skipped="0" time="67.651" errors="0">
+<testcase name="New Todo should allow me to add todo items" classname="[webkit] › example.spec.ts:14:3 › New Todo › should allow me to add todo items" time="4.582">
+</testcase>
+<testcase name="New Todo should clear text input field when an item is added" classname="[webkit] › example.spec.ts:37:3 › New Todo › should clear text input field when an item is added" time="4.439">
+</testcase>
+<testcase name="New Todo should append new items to the bottom of the list" classname="[webkit] › example.spec.ts:47:3 › New Todo › should append new items to the bottom of the list" time="4.826">
+</testcase>
+<testcase name="New Todo should show #main and #footer when items added" classname="[webkit] › example.spec.ts:61:3 › New Todo › should show #main and #footer when items added" time="4.187">
+</testcase>
+<testcase name="Mark all as completed should allow me to mark all items as completed" classname="[webkit] › example.spec.ts:81:3 › Mark all as completed › should allow me to mark all items as completed" time="2.439">
+</testcase>
+<testcase name="Mark all as completed should allow me to clear the complete state of all items" classname="[webkit] › example.spec.ts:90:3 › Mark all as completed › should allow me to clear the complete state of all items" time="2.882">
+</testcase>
+<testcase name="Mark all as completed complete all checkbox should update state when items are completed / cleared" classname="[webkit] › example.spec.ts:99:3 › Mark all as completed › complete all checkbox should update state when items are completed / cleared" time="3.413">
+</testcase>
+<testcase name="Item should allow me to mark items as complete" classname="[webkit] › example.spec.ts:122:3 › Item › should allow me to mark items as complete" time="2.603">
+</testcase>
+<testcase name="Item should allow me to un-mark items as complete" classname="[webkit] › example.spec.ts:144:3 › Item › should allow me to un-mark items as complete" time="2.742">
+</testcase>
+<testcase name="Item should allow me to edit an item" classname="[webkit] › example.spec.ts:164:3 › Item › should allow me to edit an item" time="2.222">
+</testcase>
+<testcase name="Editing should hide other controls when editing" classname="[webkit] › example.spec.ts:190:3 › Editing › should hide other controls when editing" time="2.019">
+</testcase>
+<testcase name="Editing should save edits on blur" classname="[webkit] › example.spec.ts:198:3 › Editing › should save edits on blur" time="1.925">
+</testcase>
+<testcase name="Editing should trim entered text" classname="[webkit] › example.spec.ts:212:3 › Editing › should trim entered text" time="2.01">
+</testcase>
+<testcase name="Editing should remove the item if an empty text string was entered" classname="[webkit] › example.spec.ts:226:3 › Editing › should remove the item if an empty text string was entered" time="2.377">
+</testcase>
+<testcase name="Editing should cancel edits on escape" classname="[webkit] › example.spec.ts:238:3 › Editing › should cancel edits on escape" time="2.071">
+</testcase>
+<testcase name="Counter should display the current number of todo items" classname="[webkit] › example.spec.ts:247:3 › Counter › should display the current number of todo items" time="1.304">
+</testcase>
+<testcase name="Clear completed button should display the correct text" classname="[webkit] › example.spec.ts:265:3 › Clear completed button › should display the correct text" time="1.989">
+</testcase>
+<testcase name="Clear completed button should remove completed items when clicked" classname="[webkit] › example.spec.ts:270:3 › Clear completed button › should remove completed items when clicked" time="2.36">
+</testcase>
+<testcase name="Clear completed button should be hidden when there are no items that are completed" classname="[webkit] › example.spec.ts:278:3 › Clear completed button › should be hidden when there are no items that are completed" time="2.308">
+</testcase>
+<testcase name="Persistence should persist its data" classname="[webkit] › example.spec.ts:286:3 › Persistence › should persist its data" time="2.084">
+</testcase>
+<testcase name="Routing should allow me to display active items" classname="[webkit] › example.spec.ts:316:3 › Routing › should allow me to display active items" time="2.562">
+</testcase>
+<testcase name="Routing should respect the back button" classname="[webkit] › example.spec.ts:324:3 › Routing › should respect the back button" time="2.952">
+</testcase>
+<testcase name="Routing should allow me to display completed items" classname="[webkit] › example.spec.ts:348:3 › Routing › should allow me to display completed items" time="2.269">
+</testcase>
+<testcase name="Routing should allow me to display all items" classname="[webkit] › example.spec.ts:355:3 › Routing › should allow me to display all items" time="2.885">
+</testcase>
+<testcase name="Routing should highlight the currently applied filter" classname="[webkit] › example.spec.ts:364:3 › Routing › should highlight the currently applied filter" time="2.201">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="1671672958247" hostname="" tests="25" failures="0" skipped="0" time="27.761" errors="0">
+<testcase name="New Todo should allow me to add todo items" classname="[Mobile Chrome] › example.spec.ts:14:3 › New Todo › should allow me to add todo items" time="2.062">
+</testcase>
+<testcase name="New Todo should clear text input field when an item is added" classname="[Mobile Chrome] › example.spec.ts:37:3 › New Todo › should clear text input field when an item is added" time="2.229">
+</testcase>
+<testcase name="New Todo should append new items to the bottom of the list" classname="[Mobile Chrome] › example.spec.ts:47:3 › New Todo › should append new items to the bottom of the list" time="2.272">
+</testcase>
+<testcase name="New Todo should show #main and #footer when items added" classname="[Mobile Chrome] › example.spec.ts:61:3 › New Todo › should show #main and #footer when items added" time="1.819">
+</testcase>
+<testcase name="Mark all as completed should allow me to mark all items as completed" classname="[Mobile Chrome] › example.spec.ts:81:3 › Mark all as completed › should allow me to mark all items as completed" time="1.056">
+</testcase>
+<testcase name="Mark all as completed should allow me to clear the complete state of all items" classname="[Mobile Chrome] › example.spec.ts:90:3 › Mark all as completed › should allow me to clear the complete state of all items" time="0.916">
+</testcase>
+<testcase name="Mark all as completed complete all checkbox should update state when items are completed / cleared" classname="[Mobile Chrome] › example.spec.ts:99:3 › Mark all as completed › complete all checkbox should update state when items are completed / cleared" time="0.984">
+</testcase>
+<testcase name="Item should allow me to mark items as complete" classname="[Mobile Chrome] › example.spec.ts:122:3 › Item › should allow me to mark items as complete" time="0.877">
+</testcase>
+<testcase name="Item should allow me to un-mark items as complete" classname="[Mobile Chrome] › example.spec.ts:144:3 › Item › should allow me to un-mark items as complete" time="0.83">
+</testcase>
+<testcase name="Item should allow me to edit an item" classname="[Mobile Chrome] › example.spec.ts:164:3 › Item › should allow me to edit an item" time="0.836">
+</testcase>
+<testcase name="Editing should hide other controls when editing" classname="[Mobile Chrome] › example.spec.ts:190:3 › Editing › should hide other controls when editing" time="0.973">
+</testcase>
+<testcase name="Editing should save edits on blur" classname="[Mobile Chrome] › example.spec.ts:198:3 › Editing › should save edits on blur" time="0.897">
+</testcase>
+<testcase name="Editing should trim entered text" classname="[Mobile Chrome] › example.spec.ts:212:3 › Editing › should trim entered text" time="0.909">
+</testcase>
+<testcase name="Editing should remove the item if an empty text string was entered" classname="[Mobile Chrome] › example.spec.ts:226:3 › Editing › should remove the item if an empty text string was entered" time="1.024">
+</testcase>
+<testcase name="Editing should cancel edits on escape" classname="[Mobile Chrome] › example.spec.ts:238:3 › Editing › should cancel edits on escape" time="0.946">
+</testcase>
+<testcase name="Counter should display the current number of todo items" classname="[Mobile Chrome] › example.spec.ts:247:3 › Counter › should display the current number of todo items" time="0.789">
+</testcase>
+<testcase name="Clear completed button should display the correct text" classname="[Mobile Chrome] › example.spec.ts:265:3 › Clear completed button › should display the correct text" time="0.801">
+</testcase>
+<testcase name="Clear completed button should remove completed items when clicked" classname="[Mobile Chrome] › example.spec.ts:270:3 › Clear completed button › should remove completed items when clicked" time="0.983">
+</testcase>
+<testcase name="Clear completed button should be hidden when there are no items that are completed" classname="[Mobile Chrome] › example.spec.ts:278:3 › Clear completed button › should be hidden when there are no items that are completed" time="0.896">
+</testcase>
+<testcase name="Persistence should persist its data" classname="[Mobile Chrome] › example.spec.ts:286:3 › Persistence › should persist its data" time="0.977">
+</testcase>
+<testcase name="Routing should allow me to display active items" classname="[Mobile Chrome] › example.spec.ts:316:3 › Routing › should allow me to display active items" time="0.945">
+</testcase>
+<testcase name="Routing should respect the back button" classname="[Mobile Chrome] › example.spec.ts:324:3 › Routing › should respect the back button" time="1.046">
+</testcase>
+<testcase name="Routing should allow me to display completed items" classname="[Mobile Chrome] › example.spec.ts:348:3 › Routing › should allow me to display completed items" time="0.918">
+</testcase>
+<testcase name="Routing should allow me to display all items" classname="[Mobile Chrome] › example.spec.ts:355:3 › Routing › should allow me to display all items" time="0.991">
+</testcase>
+<testcase name="Routing should highlight the currently applied filter" classname="[Mobile Chrome] › example.spec.ts:364:3 › Routing › should highlight the currently applied filter" time="0.785">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="1671672958247" hostname="" tests="25" failures="3" skipped="0" time="133.394" errors="0">
+<testcase name="New Todo should allow me to add todo items" classname="[Mobile Safari] › example.spec.ts:14:3 › New Todo › should allow me to add todo items" time="4.407">
+</testcase>
+<testcase name="New Todo should clear text input field when an item is added" classname="[Mobile Safari] › example.spec.ts:37:3 › New Todo › should clear text input field when an item is added" time="4.408">
+</testcase>
+<testcase name="New Todo should append new items to the bottom of the list" classname="[Mobile Safari] › example.spec.ts:47:3 › New Todo › should append new items to the bottom of the list" time="4.62">
+</testcase>
+<testcase name="New Todo should show #main and #footer when items added" classname="[Mobile Safari] › example.spec.ts:61:3 › New Todo › should show #main and #footer when items added" time="4.382">
+</testcase>
+<testcase name="Mark all as completed should allow me to mark all items as completed" classname="[Mobile Safari] › example.spec.ts:81:3 › Mark all as completed › should allow me to mark all items as completed" time="30.091">
+<failure message="example.spec.ts:81:3 should allow me to mark all items as completed" type="FAILURE">
+<![CDATA[  [Mobile Safari] › example.spec.ts:81:3 › Mark all as completed › should allow me to mark all items as completed 
+
+    Timeout of 30000ms exceeded.
+
+    locator.check: Target closed
+    =========================== logs ===========================
+    waiting for selector ".toggle-all"
+      selector resolved to visible <input id="toggle-all" type="checkbox" class="toggle-al…/>
+    attempting click action
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #1
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #2
+      waiting 20ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #3
+      waiting 100ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #4
+      waiting 100ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #5
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #6
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #7
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #8
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #9
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #10
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #11
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #12
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #13
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #14
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #15
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #16
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #17
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #18
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #19
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #20
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #21
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #22
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #23
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #24
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #25
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #26
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #27
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #28
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #29
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #30
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #31
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #32
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #33
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #34
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #35
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #36
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #37
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #38
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #39
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #40
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #41
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #42
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #43
+      waiting 500ms
+    ============================================================
+
+      81 |   test('should allow me to mark all items as completed', async ({ page }) => {
+      82 |     // Complete all todos.
+    > 83 |     await page.locator('.toggle-all').check();
+         |                                       ^
+      84 |
+      85 |     // Ensure all todos have 'completed' class.
+      86 |     await expect(page.locator('.todo-list li')).toHaveClass(['completed', 'completed', 'completed']);
+
+        at C:\Users\mnpaw\pw\tests\example.spec.ts:83:39
+
+    Pending operations:
+      - locator.check at tests\example.spec.ts:83:39
+
+]]>
+</failure>
+</testcase>
+<testcase name="Mark all as completed should allow me to clear the complete state of all items" classname="[Mobile Safari] › example.spec.ts:90:3 › Mark all as completed › should allow me to clear the complete state of all items" time="30.105">
+<failure message="example.spec.ts:90:3 should allow me to clear the complete state of all items" type="FAILURE">
+<![CDATA[  [Mobile Safari] › example.spec.ts:90:3 › Mark all as completed › should allow me to clear the complete state of all items 
+
+    Timeout of 30000ms exceeded.
+
+    locator.check: Target closed
+    =========================== logs ===========================
+    waiting for selector ".toggle-all"
+      selector resolved to visible <input id="toggle-all" type="checkbox" class="toggle-al…/>
+    attempting click action
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #1
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #2
+      waiting 20ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #3
+      waiting 100ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #4
+      waiting 100ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #5
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #6
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #7
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #8
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #9
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #10
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #11
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #12
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #13
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #14
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #15
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #16
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #17
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #18
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #19
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #20
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #21
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #22
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #23
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #24
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #25
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #26
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #27
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #28
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #29
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #30
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #31
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #32
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #33
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #34
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #35
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #36
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #37
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #38
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #39
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #40
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #41
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #42
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #43
+      waiting 500ms
+    ============================================================
+
+      90 |   test('should allow me to clear the complete state of all items', async ({ page }) => {
+      91 |     // Check and then immediately uncheck.
+    > 92 |     await page.locator('.toggle-all').check();
+         |                                       ^
+      93 |     await page.locator('.toggle-all').uncheck();
+      94 |
+      95 |     // Should be no completed classes.
+
+        at C:\Users\mnpaw\pw\tests\example.spec.ts:92:39
+
+    Pending operations:
+      - locator.check at tests\example.spec.ts:92:39
+
+]]>
+</failure>
+</testcase>
+<testcase name="Mark all as completed complete all checkbox should update state when items are completed / cleared" classname="[Mobile Safari] › example.spec.ts:99:3 › Mark all as completed › complete all checkbox should update state when items are completed / cleared" time="30.134">
+<failure message="example.spec.ts:99:3 complete all checkbox should update state when items are completed / cleared" type="FAILURE">
+<![CDATA[  [Mobile Safari] › example.spec.ts:99:3 › Mark all as completed › complete all checkbox should update state when items are completed / cleared 
+
+    Timeout of 30000ms exceeded.
+
+    locator.check: Target closed
+    =========================== logs ===========================
+    waiting for selector ".toggle-all"
+      selector resolved to visible <input id="toggle-all" type="checkbox" class="toggle-al…/>
+    attempting click action
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #1
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #2
+      waiting 20ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #3
+      waiting 100ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #4
+      waiting 100ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #5
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #6
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #7
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #8
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #9
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #10
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #11
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #12
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #13
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #14
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #15
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #16
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #17
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #18
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #19
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #20
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #21
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #22
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #23
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #24
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #25
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #26
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #27
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #28
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #29
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #30
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #31
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #32
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #33
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #34
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #35
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #36
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #37
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #38
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #39
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #40
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #41
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #42
+      waiting 500ms
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      <html lang="en" data-framework="typescript">…</html> intercepts pointer events
+    retrying click action, attempt #43
+      waiting 500ms
+    ============================================================
+
+       99 |   test('complete all checkbox should update state when items are completed / cleared', async ({ page }) => {
+      100 |     const toggleAll = page.locator('.toggle-all');
+    > 101 |     await toggleAll.check();
+          |                     ^
+      102 |     await expect(toggleAll).toBeChecked();
+      103 |     await checkNumberOfCompletedTodosInLocalStorage(page, 3);
+      104 |
+
+        at C:\Users\mnpaw\pw\tests\example.spec.ts:101:21
+
+    Pending operations:
+      - locator.check at tests\example.spec.ts:101:21
+
+]]>
+</failure>
+</testcase>
+<testcase name="Item should allow me to mark items as complete" classname="[Mobile Safari] › example.spec.ts:122:3 › Item › should allow me to mark items as complete" time="1.759">
+</testcase>
+<testcase name="Item should allow me to un-mark items as complete" classname="[Mobile Safari] › example.spec.ts:144:3 › Item › should allow me to un-mark items as complete" time="1.671">
+</testcase>
+<testcase name="Item should allow me to edit an item" classname="[Mobile Safari] › example.spec.ts:164:3 › Item › should allow me to edit an item" time="1.202">
+</testcase>
+<testcase name="Editing should hide other controls when editing" classname="[Mobile Safari] › example.spec.ts:190:3 › Editing › should hide other controls when editing" time="1.233">
+</testcase>
+<testcase name="Editing should save edits on blur" classname="[Mobile Safari] › example.spec.ts:198:3 › Editing › should save edits on blur" time="1.269">
+</testcase>
+<testcase name="Editing should trim entered text" classname="[Mobile Safari] › example.spec.ts:212:3 › Editing › should trim entered text" time="1.273">
+</testcase>
+<testcase name="Editing should remove the item if an empty text string was entered" classname="[Mobile Safari] › example.spec.ts:226:3 › Editing › should remove the item if an empty text string was entered" time="1.165">
+</testcase>
+<testcase name="Editing should cancel edits on escape" classname="[Mobile Safari] › example.spec.ts:238:3 › Editing › should cancel edits on escape" time="1.148">
+</testcase>
+<testcase name="Counter should display the current number of todo items" classname="[Mobile Safari] › example.spec.ts:247:3 › Counter › should display the current number of todo items" time="0.862">
+</testcase>
+<testcase name="Clear completed button should display the correct text" classname="[Mobile Safari] › example.spec.ts:265:3 › Clear completed button › should display the correct text" time="1.067">
+</testcase>
+<testcase name="Clear completed button should remove completed items when clicked" classname="[Mobile Safari] › example.spec.ts:270:3 › Clear completed button › should remove completed items when clicked" time="1.363">
+</testcase>
+<testcase name="Clear completed button should be hidden when there are no items that are completed" classname="[Mobile Safari] › example.spec.ts:278:3 › Clear completed button › should be hidden when there are no items that are completed" time="1.456">
+</testcase>
+<testcase name="Persistence should persist its data" classname="[Mobile Safari] › example.spec.ts:286:3 › Persistence › should persist its data" time="1.319">
+</testcase>
+<testcase name="Routing should allow me to display active items" classname="[Mobile Safari] › example.spec.ts:316:3 › Routing › should allow me to display active items" time="1.334">
+</testcase>
+<testcase name="Routing should respect the back button" classname="[Mobile Safari] › example.spec.ts:324:3 › Routing › should respect the back button" time="2.082">
+</testcase>
+<testcase name="Routing should allow me to display completed items" classname="[Mobile Safari] › example.spec.ts:348:3 › Routing › should allow me to display completed items" time="1.49">
+</testcase>
+<testcase name="Routing should allow me to display all items" classname="[Mobile Safari] › example.spec.ts:355:3 › Routing › should allow me to display all items" time="1.949">
+</testcase>
+<testcase name="Routing should highlight the currently applied filter" classname="[Mobile Safari] › example.spec.ts:364:3 › Routing › should highlight the currently applied filter" time="1.605">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="1671672958247" hostname="" tests="25" failures="0" skipped="0" time="22.432" errors="0">
+<testcase name="New Todo should allow me to add todo items" classname="[Microsoft Edge] › example.spec.ts:14:3 › New Todo › should allow me to add todo items" time="0.694">
+</testcase>
+<testcase name="New Todo should clear text input field when an item is added" classname="[Microsoft Edge] › example.spec.ts:37:3 › New Todo › should clear text input field when an item is added" time="0.379">
+</testcase>
+<testcase name="New Todo should append new items to the bottom of the list" classname="[Microsoft Edge] › example.spec.ts:47:3 › New Todo › should append new items to the bottom of the list" time="0.448">
+</testcase>
+<testcase name="New Todo should show #main and #footer when items added" classname="[Microsoft Edge] › example.spec.ts:61:3 › New Todo › should show #main and #footer when items added" time="0.42">
+</testcase>
+<testcase name="Mark all as completed should allow me to mark all items as completed" classname="[Microsoft Edge] › example.spec.ts:81:3 › Mark all as completed › should allow me to mark all items as completed" time="0.514">
+</testcase>
+<testcase name="Mark all as completed should allow me to clear the complete state of all items" classname="[Microsoft Edge] › example.spec.ts:90:3 › Mark all as completed › should allow me to clear the complete state of all items" time="0.58">
+</testcase>
+<testcase name="Mark all as completed complete all checkbox should update state when items are completed / cleared" classname="[Microsoft Edge] › example.spec.ts:99:3 › Mark all as completed › complete all checkbox should update state when items are completed / cleared" time="0.814">
+</testcase>
+<testcase name="Item should allow me to mark items as complete" classname="[Microsoft Edge] › example.spec.ts:122:3 › Item › should allow me to mark items as complete" time="1.56">
+</testcase>
+<testcase name="Item should allow me to un-mark items as complete" classname="[Microsoft Edge] › example.spec.ts:144:3 › Item › should allow me to un-mark items as complete" time="1.559">
+</testcase>
+<testcase name="Item should allow me to edit an item" classname="[Microsoft Edge] › example.spec.ts:164:3 › Item › should allow me to edit an item" time="0.961">
+</testcase>
+<testcase name="Editing should hide other controls when editing" classname="[Microsoft Edge] › example.spec.ts:190:3 › Editing › should hide other controls when editing" time="1.479">
+</testcase>
+<testcase name="Editing should save edits on blur" classname="[Microsoft Edge] › example.spec.ts:198:3 › Editing › should save edits on blur" time="1.176">
+</testcase>
+<testcase name="Editing should trim entered text" classname="[Microsoft Edge] › example.spec.ts:212:3 › Editing › should trim entered text" time="0.884">
+</testcase>
+<testcase name="Editing should remove the item if an empty text string was entered" classname="[Microsoft Edge] › example.spec.ts:226:3 › Editing › should remove the item if an empty text string was entered" time="0.842">
+</testcase>
+<testcase name="Editing should cancel edits on escape" classname="[Microsoft Edge] › example.spec.ts:238:3 › Editing › should cancel edits on escape" time="0.922">
+</testcase>
+<testcase name="Counter should display the current number of todo items" classname="[Microsoft Edge] › example.spec.ts:247:3 › Counter › should display the current number of todo items" time="0.646">
+</testcase>
+<testcase name="Clear completed button should display the correct text" classname="[Microsoft Edge] › example.spec.ts:265:3 › Clear completed button › should display the correct text" time="0.809">
+</testcase>
+<testcase name="Clear completed button should remove completed items when clicked" classname="[Microsoft Edge] › example.spec.ts:270:3 › Clear completed button › should remove completed items when clicked" time="0.879">
+</testcase>
+<testcase name="Clear completed button should be hidden when there are no items that are completed" classname="[Microsoft Edge] › example.spec.ts:278:3 › Clear completed button › should be hidden when there are no items that are completed" time="0.859">
+</testcase>
+<testcase name="Persistence should persist its data" classname="[Microsoft Edge] › example.spec.ts:286:3 › Persistence › should persist its data" time="0.943">
+</testcase>
+<testcase name="Routing should allow me to display active items" classname="[Microsoft Edge] › example.spec.ts:316:3 › Routing › should allow me to display active items" time="0.926">
+</testcase>
+<testcase name="Routing should respect the back button" classname="[Microsoft Edge] › example.spec.ts:324:3 › Routing › should respect the back button" time="1.106">
+</testcase>
+<testcase name="Routing should allow me to display completed items" classname="[Microsoft Edge] › example.spec.ts:348:3 › Routing › should allow me to display completed items" time="0.871">
+</testcase>
+<testcase name="Routing should allow me to display all items" classname="[Microsoft Edge] › example.spec.ts:355:3 › Routing › should allow me to display all items" time="1.083">
+</testcase>
+<testcase name="Routing should highlight the currently applied filter" classname="[Microsoft Edge] › example.spec.ts:364:3 › Routing › should highlight the currently applied filter" time="1.078">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="1671672958247" hostname="" tests="25" failures="0" skipped="0" time="24.948" errors="0">
+<testcase name="New Todo should allow me to add todo items" classname="[Google Chrome] › example.spec.ts:14:3 › New Todo › should allow me to add todo items" time="1.385">
+</testcase>
+<testcase name="New Todo should clear text input field when an item is added" classname="[Google Chrome] › example.spec.ts:37:3 › New Todo › should clear text input field when an item is added" time="1.388">
+</testcase>
+<testcase name="New Todo should append new items to the bottom of the list" classname="[Google Chrome] › example.spec.ts:47:3 › New Todo › should append new items to the bottom of the list" time="1.453">
+</testcase>
+<testcase name="New Todo should show #main and #footer when items added" classname="[Google Chrome] › example.spec.ts:61:3 › New Todo › should show #main and #footer when items added" time="1.285">
+</testcase>
+<testcase name="Mark all as completed should allow me to mark all items as completed" classname="[Google Chrome] › example.spec.ts:81:3 › Mark all as completed › should allow me to mark all items as completed" time="0.866">
+</testcase>
+<testcase name="Mark all as completed should allow me to clear the complete state of all items" classname="[Google Chrome] › example.spec.ts:90:3 › Mark all as completed › should allow me to clear the complete state of all items" time="0.932">
+</testcase>
+<testcase name="Mark all as completed complete all checkbox should update state when items are completed / cleared" classname="[Google Chrome] › example.spec.ts:99:3 › Mark all as completed › complete all checkbox should update state when items are completed / cleared" time="1.007">
+</testcase>
+<testcase name="Item should allow me to mark items as complete" classname="[Google Chrome] › example.spec.ts:122:3 › Item › should allow me to mark items as complete" time="0.826">
+</testcase>
+<testcase name="Item should allow me to un-mark items as complete" classname="[Google Chrome] › example.spec.ts:144:3 › Item › should allow me to un-mark items as complete" time="0.916">
+</testcase>
+<testcase name="Item should allow me to edit an item" classname="[Google Chrome] › example.spec.ts:164:3 › Item › should allow me to edit an item" time="0.843">
+</testcase>
+<testcase name="Editing should hide other controls when editing" classname="[Google Chrome] › example.spec.ts:190:3 › Editing › should hide other controls when editing" time="0.817">
+</testcase>
+<testcase name="Editing should save edits on blur" classname="[Google Chrome] › example.spec.ts:198:3 › Editing › should save edits on blur" time="0.871">
+</testcase>
+<testcase name="Editing should trim entered text" classname="[Google Chrome] › example.spec.ts:212:3 › Editing › should trim entered text" time="0.983">
+</testcase>
+<testcase name="Editing should remove the item if an empty text string was entered" classname="[Google Chrome] › example.spec.ts:226:3 › Editing › should remove the item if an empty text string was entered" time="1.03">
+</testcase>
+<testcase name="Editing should cancel edits on escape" classname="[Google Chrome] › example.spec.ts:238:3 › Editing › should cancel edits on escape" time="0.989">
+</testcase>
+<testcase name="Counter should display the current number of todo items" classname="[Google Chrome] › example.spec.ts:247:3 › Counter › should display the current number of todo items" time="0.812">
+</testcase>
+<testcase name="Clear completed button should display the correct text" classname="[Google Chrome] › example.spec.ts:265:3 › Clear completed button › should display the correct text" time="0.881">
+</testcase>
+<testcase name="Clear completed button should remove completed items when clicked" classname="[Google Chrome] › example.spec.ts:270:3 › Clear completed button › should remove completed items when clicked" time="0.912">
+</testcase>
+<testcase name="Clear completed button should be hidden when there are no items that are completed" classname="[Google Chrome] › example.spec.ts:278:3 › Clear completed button › should be hidden when there are no items that are completed" time="0.874">
+</testcase>
+<testcase name="Persistence should persist its data" classname="[Google Chrome] › example.spec.ts:286:3 › Persistence › should persist its data" time="0.917">
+</testcase>
+<testcase name="Routing should allow me to display active items" classname="[Google Chrome] › example.spec.ts:316:3 › Routing › should allow me to display active items" time="0.935">
+</testcase>
+<testcase name="Routing should respect the back button" classname="[Google Chrome] › example.spec.ts:324:3 › Routing › should respect the back button" time="1.127">
+</testcase>
+<testcase name="Routing should allow me to display completed items" classname="[Google Chrome] › example.spec.ts:348:3 › Routing › should allow me to display completed items" time="0.99">
+</testcase>
+<testcase name="Routing should allow me to display all items" classname="[Google Chrome] › example.spec.ts:355:3 › Routing › should allow me to display all items" time="1.103">
+</testcase>
+<testcase name="Routing should highlight the currently applied filter" classname="[Google Chrome] › example.spec.ts:364:3 › Routing › should highlight the currently applied filter" time="0.806">
+</testcase>
+</testsuite>
+</testsuites>
